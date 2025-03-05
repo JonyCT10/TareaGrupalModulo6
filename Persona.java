@@ -40,7 +40,7 @@ public class Persona {
 }
 
 //subclase Deportista
- class Deportista extends Persona {
+class Deportista extends Persona {
     private final String deporte;
     private final String calzado;
     private final int medallas;
@@ -79,7 +79,7 @@ public class Persona {
     }
 }
 
-public class Doctor extends Persona 
+class Doctor extends Persona 
 {
     private String especialidad;
     private int eAños;
