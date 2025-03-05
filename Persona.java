@@ -8,10 +8,10 @@
  * @author Admin
  */
 public class Persona {
-    public int pies=2;
-    public int manos=2;
-    public int ojos=2;
-    public String colorPelo;
+    private int pies=2;
+    private int manos=2;
+    private int ojos=2;
+    private String colorPelo;
     
     public void partesCuerpo(){
         System.out.println("Una persona normal tiene: "+pies+" pies "+manos+" manos "+ojos+" ojos");   
@@ -37,6 +37,7 @@ public class Persona {
     public void trabajar(){
         System.out.println("El esta trabajando");
     }
+    
 }
 
 //subclase Deportista
