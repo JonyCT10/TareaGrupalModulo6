@@ -78,3 +78,28 @@ public class Persona {
         System.out.println("El deportista está descansando.");
     }
 }
+
+public class Doctor extends Persona 
+{
+    private String especialidad;
+    private int eAños;
+    
+    public Doctor(String especialidad, int eAños) 
+    {
+        this.especialidad = especialidad;
+        this.eAños = eAños;
+    }
+    public void diag() 
+    {
+       System.out.println("El doctor esta dandole un diagnostico a un paciente");
+    }
+    public void rec() 
+    {
+            System.out.println("El doctor está recetando un tratamiento.");
+    }
+    
+    public void mostrarInformacion() {
+        System.out.println("Especialidad: " + especialidad);
+        System.out.println("Años de experiencia: " + eAños);
+    }
+}
